@@ -7,5 +7,5 @@
 </script>
 
 <DarkMode btnClass={darkmodebtn} />
-<Navbar />
+<!-- <Navbar /> -->
 <slot />
