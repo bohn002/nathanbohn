@@ -1,11 +1,27 @@
 <script>
 	import '../app.css';
-	import { DarkMode } from 'flowbite-svelte';
-	import Navbar from '../components/Navigation/Navbar.svelte';
-	let darkmodebtn =
-		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5 fixed right-4 top-2 z-50';
+	import Navbar from '../lib/components/Navigation/Navbar.svelte';
+	import Sidebar from '../lib/components/Navigation/Sidebar.svelte';
 </script>
 
-<DarkMode btnClass={darkmodebtn} />
-<!-- <Navbar /> -->
-<slot />
+<div class="flex flex-col h-screen">
+	<!-- Navigation -->
+	<div class="w-full">
+		<Navbar />
+	</div>
+
+	<!-- Main Content -->
+	<div class="flex flex-row flex-1">
+		<!-- Sidebar -->
+		<div class="w-1/5">
+			<Sidebar />
+		</div>
+
+		<!-- Main Content -->
+		<div
+			class="w-4/5 p-8 m-4 text-base font-normal text-primary-900 bg-gray-100 dark:bg-gray-800 rounded-lg dark:text-white"
+		>
+			<slot />
+		</div>
+	</div>
+</div>
