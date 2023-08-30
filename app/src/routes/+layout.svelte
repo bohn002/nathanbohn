@@ -19,8 +19,7 @@
 
 		<!-- Main Content -->
 		<div
-			class="w-4/5 p-8 m-4 text-base font-normal text-primary-900 bg-gray-100 dark:bg-gray-800 rounded-lg dark:text-white"
-		>
+			class="w-4/5 p-8 m-4 text-base font-normal text-primary-900 bg-gray-100 dark:bg-gray-800 rounded-lg dark:text-white">
 			<slot />
 		</div>
 	</div>
