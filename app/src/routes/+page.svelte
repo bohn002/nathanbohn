@@ -14,11 +14,5 @@
 	</HeroHeader>
 	<HeroBody>
 		<svelte:fragment slot="head">Current Things Of Interest</svelte:fragment>
-
-		<div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
-			<a href="/" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"> YT </a>
-			<a href="/" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"> PH </a>
-			<a href="/" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"> R </a>
-		</div>
 	</HeroBody>
 </Section>
