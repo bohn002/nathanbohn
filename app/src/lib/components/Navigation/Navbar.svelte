@@ -6,12 +6,12 @@
 <Navbar let:hidden let:toggle rounded color="form">
 	<NavBrand href="/">
 		<img src="img/beard_orange.svg" class="mr-3 h-10 sm:h-9" alt="Logo" />
-		<span class="self-center whitespace-nowrap text-4xl font-semibold dark:text-red">Nate Bohn</span
-		>
+		<span class="self-center whitespace-nowrap text-4xl font-semibold dark:text-red"
+			>Nate Bohn</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<div class="flex">
-		<DarkMode />
+		<DarkMode size="lg" />
 	</div>
 	<NavUl {hidden}>
 		<NavLi href="https://www.linkedin.com/in/nathanbohn/" target="_blank">
