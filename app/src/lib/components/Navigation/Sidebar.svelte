@@ -17,11 +17,11 @@
 					<Icon name="home-solid" class="w-5 h-5" />
 				</svelte:fragment>
 			</SidebarItem>
-			<SidebarItem label="Resume" href="/resume">
+			<!-- <SidebarItem label="Resume" href="/resume">
 				<svelte:fragment slot="icon">
 					<Icon name="briefcase-solid" class="w-5 h-5" />
 				</svelte:fragment>
-			</SidebarItem>
+			</SidebarItem> -->
 			<SidebarItem label="3D Printing" href="/3d-printing">
 				<svelte:fragment slot="icon">
 					<Icon name="draw-square-solid" class="w-5 h-5" />
