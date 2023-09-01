@@ -27,11 +27,11 @@
 					<Icon name="draw-square-solid" class="w-5 h-5" />
 				</svelte:fragment>
 			</SidebarItem>
-			<SidebarItem label="Notes" href="/notes">
+			<!-- <SidebarItem label="Notes" href="/notes">
 				<svelte:fragment slot="icon">
 					<Icon name="message-caption-solid" class="w-5 h-5" />
 				</svelte:fragment>
-			</SidebarItem>
+			</SidebarItem> -->
 			<SidebarItem label="Nifty Links" href="/links">
 				<svelte:fragment slot="icon">
 					<Icon name="link-solid" class="w-5 h-5" />
