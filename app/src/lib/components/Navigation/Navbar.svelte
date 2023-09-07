@@ -1,6 +1,6 @@
 <script>
 	import { DarkMode, Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import { Icon } from 'flowbite-svelte-icons';
+	import Icon from '@iconify/svelte';
 </script>
 
 <Navbar let:hidden let:toggle rounded color="form">
@@ -21,16 +21,26 @@
 		<NavLi
 			href="https://www.linkedin.com/in/nathanbohn/"
 			target="_blank"
-			activeClass="w-1/2"
-			nonActiveClass="w-1/2">
-			<Icon name="linkedin-solid" class="w-10 h-10 text-primary-800 dark:text-white inline" />
+			activeClass="w-1/3"
+			nonActiveClass="w-1/3">
+			<Icon icon="devicon:linkedin" class="w-10 h-10 text-primary-800 dark:text-white inline" />
 		</NavLi>
 		<NavLi
 			href="https://github.com/bohn002"
 			target="_blank"
-			activeClass="w-1/2"
-			nonActiveClass="w-1/2">
-			<Icon name="github-solid" class="w-10 h-10 text-primary-800 dark:text-white inline" />
+			activeClass="w-1/3"
+			nonActiveClass="w-1/3">
+			<Icon icon="devicon:github" class="w-10 h-10 text-primary-800 dark:text-white inline" />
+		</NavLi>
+		<NavLi
+			href="https://www.last.fm/user/bohn002"
+			target="_blank"
+			activeClass="w-1/3"
+			nonActiveClass="w-1/3">
+			<Icon
+				icon="fa-brands:lastfm"
+				color="#ae110c"
+				class="w-10 h-10 text-primary-800 dark:text-white inline" />
 		</NavLi>
 		<NavLi><DarkMode size="lg" /></NavLi>
 	</NavUl>
