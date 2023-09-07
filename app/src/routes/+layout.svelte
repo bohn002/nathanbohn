@@ -13,13 +13,13 @@
 	<!-- Main Content -->
 	<div class="flex flex-row flex-1">
 		<!-- Sidebar -->
-		<div class="w-1/5">
+		<div class="md:w-60 md:block hidden">
 			<Sidebar />
 		</div>
 
 		<!-- Main Content -->
 		<div
-			class="w-4/5 p-8 m-4 text-base font-normal text-primary-900 bg-gray-100 dark:bg-gray-800 rounded-lg dark:text-white">
+			class="w-full p-2 m-2 md:p-8 md:m-4 md:ml-12 text-base font-normal text-primary-900 bg-gray-100 dark:bg-gray-800 rounded-lg dark:text-white content-center">
 			<slot />
 		</div>
 	</div>
