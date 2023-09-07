@@ -5,7 +5,7 @@
 
 <Navbar let:hidden let:toggle rounded color="form">
 	<NavBrand href="/">
-		<img src="img/beard_orange.svg" class="mr-3 h-10 sm:h-9" alt="Logo" />
+		<img src="img/beard_orange.svg" class="mr-3 h-10 w-10 sm:h-9 sm:w-9" alt="Logo" />
 		<span class="self-center whitespace-nowrap text-4xl font-semibold dark:text-red"
 			>Nate Bohn</span>
 	</NavBrand>
